@@ -1,0 +1,11 @@
+.wrapper {
+  @apply fixed inset-0 z-30 flex justify-center lg:items-center;
+}
+
+.backdrop {
+  @apply absolute w-full h-full bg-black opacity-60;
+}
+
+.modal {
+  @apply relative modal lg:w-2/6 sm:w-4/6 xs:w-11/12 xs:top-20;
+}
